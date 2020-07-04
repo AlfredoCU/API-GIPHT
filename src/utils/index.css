@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Roboto:wght@100;400;900&display=swap");
+
+body {
+  color: #ffffff;
+  background-color: #000000;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Montserrat",
+    "Arial", "Helvetica Neue", sans-serif;
+}
+
+code {
+  font-family: "Montserrat", source-code-pro, Menlo, Monaco, Consolas, monospace;
+}
+
+.header-conteiner {
+  width: 100vw;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 0px 0px 3px #ffffff;
+}
+
+.header-top {
+  width: 100%;
+  height: 10px;
+  background: rgb(58, 180, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 180, 151, 1) 9%,
+    rgba(49, 130, 252, 0.8421743697478992) 37%,
+    rgba(253, 29, 29, 0.7805497198879552) 68%,
+    rgba(252, 176, 69, 1) 92%
+  );
+}
+
+.form-category {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-category__imput {
+  width: 60%;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-family: "Montserrat";
+  border: 1px solid #f50057;
+  background-color: transparent;
+  box-shadow: 0px 0px 6px 2px rgba(245, 0, 87, 0.25);
+}
+
+.form-category__imput:focus {
+  outline: none;
+  border: 2px solid #f50057;
+}
+
+.category {
+  text-align: center;
+}
+
+.gif-grid {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.gif-grid__card {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #3ab497;
+  box-shadow: 0px 0px 6px 2px rgba(58, 180, 151, 0.25);
+
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.gif-grid__card img {
+  width: 300px;
+  height: 80%;
+}
+
+.gif-grid__card p {
+  bottom: 0;
+  position: absolute;
+
+  text-align: center;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+}
