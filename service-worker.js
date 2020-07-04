@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/API-GIPHT/precache-manifest.582c30543e233c973646ffe04b6bcb00.js"
+  "/API-GIPHT/precache-manifest.66162311862adf3ef865a39c816e7b56.js"
 );
 
 self.addEventListener('message', (event) => {
